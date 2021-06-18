@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            background: lightblue;
+            height: 150px;
+            width: 250px;
+            padding: 40px 70px;
+            box-sizing: border-box;
+            border: 3px solid;
+        }
+        .b{
+            background: lightgreen;
+            height: 150px;
+            width: 250px;
+        }
+        .forms{
+            width:60%;
+            margin-left: auto;
+           margin-right: auto;
+        }
+       input, select{
+           width: 100%;
+           box-sizing: border-box;
+           margin-bottom: 20px;
+
+       }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <p>with box model</p>
+    </div>
+    <div class="b">
+        <p>without box model</p>
+    </div>
+
+    <div class="forms">
+        <form action="" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="" id="">
+            <label for="email">Email</label>
+            <input type="email" name="" id="">
+            <label for="password">password</label>
+            <input type="password" name="" id="">
+            <select name="" id="">
+                <option value="">---SELECT---</option>
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
